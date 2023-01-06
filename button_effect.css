@@ -1,0 +1,27 @@
+body {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:500px;
+}
+
+button {
+    border: 5px solid red;
+    padding: 20px 50px;
+    background-color: aqua;
+    font-style: italic;
+    font-weight: bold;
+    font-family: sans-serif, Arial;
+    text-align: center;
+    text-decoration: underline dashed;
+    transition: box-shadow 0.2s, transform 0.2s;
+
+}
+
+button:hover {
+    background-color:green;
+    border-color:azure;
+    box-shadow: 0em 1em 0.5em 0em violet;
+    transform: translateY(-20px)
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="/">
+        <label for="query">Cheese</label>
+        <input type="text" name="search_query" placeholder="query" id="query">
+        <button>Submit</button>
+        <label>
+            <p>Tees sizes</p>
+            <label id="xs">Xs</label>
+            <input type="radio" name="xs" id="xs" value="">
+            <label id="s">s</label>
+            <input type="radio" name="s" id="s">
+            <label id="m">m</label>
+            <input type="radio" name="m" id="m">
+            <label id="l">l</label>
+            <input type="radio" name="l" id="l">
+        </label>
+        <button>Submit size</button>
+        <select name="food">
+            <option value="meat">meat</option>
+            <option value="fish">fish</option>
+            <option value="onion">onion</option>
+            <option value="greenhorn">greenhorn</option>
+        </select>
+        <p></p>
+
+        <label id="range">Range</label>
+        <input type="range" id="range" name="range" value="5" min="1" max="10">
+        <button>Submit range</button>
+        <p></p>
+
+        <label id="number">Number</label>
+        <input type="number" name="number" id="number">
+        <button>Submit number</button>
+        <p></p>
+
+        <label id="text">texarea</label>
+        <textarea name="text" id="text" placeholder="Type in here" cols="30" rows="40"></textarea>
+        <button>Submit textarea</button>
+    </form>
+</body>
+</html>

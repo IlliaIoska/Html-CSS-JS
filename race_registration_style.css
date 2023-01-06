@@ -1,0 +1,13 @@
+p {
+    color: purple;
+    background-color: black;
+    font-size: 70px;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: right;
+    font-weight: 100;
+    text-decoration: underline;
+}

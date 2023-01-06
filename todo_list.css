@@ -1,0 +1,29 @@
+h1 {
+    /* text-decoration: underline dashed; */
+    color: Aqua;
+    font-weight: bold;
+}
+
+#clear {
+    text-decoration: line-through;
+    color: red;
+    font-size:large;
+}
+
+#add {
+    color: green;
+    font-size:large;
+}
+
+#walk_chickens {
+    color: plum;
+}
+
+#walk_oxen {
+    color:plum;
+}
+
+h1 a:first-child:hover {
+    color:white;
+}
+

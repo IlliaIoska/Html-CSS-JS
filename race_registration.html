@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="race_registration_style.css">
+</head>
+
+<body>
+    <h1>Race Registration</h1>
+    <form action="/">
+    <p>
+        <label for="first_name">First Name</label>
+        <input type="text" id="first_name" name="first_name" placeholder="First Name" required>
+
+        <label for="last_name">Last Name</label>
+        <input type="text" id="last_name" name="last_name" placeholder="Last Name" required>
+    </p>
+
+    <p>
+        Select a race:
+    </p>
+
+    <p>
+        <label for="race_fun_run">Fun run 5k</label>
+        <input type="radio" name="races" value="For fun" id="race_fun_run" required>
+    </p>
+
+    <p>
+        <label for="race_half_mar">Half Marathon</label>
+        <input type="radio" name="races" value="Half Marathon" id="race_half_mar" required>
+    </p>
+
+    <p>
+        <label for="race_full_mar">Full Marathon</label>
+        <input type="radio" name="races" value="Full marathon" id="race_full_mar" required>
+    </p>
+
+    
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="email" required>
+
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" placeholder="password" required>
+
+    <p>
+        <label for="age_group">Select Age Group:</label>
+        <select name="age_group" id="age_group">
+            <option value="&lt;18">Under 18</option>
+            <option value="&gt;18">Over 18</option>
+            <option value="on_sale">On sale</option>
+        </select>
+    </p>
+    <button>Register</button>
+    </form>
+</body>
+
+</html>
